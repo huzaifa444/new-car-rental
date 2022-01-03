@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+}
+
+.footer {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  background-color: rgb(202, 235, 235);
+  color: white;
+  border-radius: 2px;
+}
+
+.footericons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.Icons {
+  padding-right: 5px;
+}
+
+.Icons:hover {
+  cursor: pointer;
+}
+
+.Suggestionbox {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14pt;
+}
+
+.Suggest-Box {
+  resize: none;
+  max-width: 100%;
+}
+
+#sugformbutton {
+  cursor: pointer;
+}
+
+#sugformbutton:hover {
+  font-weight: bold;
+}
+
+.copyright {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#headingforsuggestion {
+  padding-bottom: 10px;
+  color: black;
+}

@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+}
+
+.Intro-Container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(3, 3, 3);
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.logo {
+  border: 2px solid rgb(94, 97, 94);
+  border-radius: 5px;
+  margin: 0px;
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  margin: 5px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.savingofferheading {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid rgb(230, 232, 236);
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(230, 232, 236);
+}
+
+.userauthenticationbuttons {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  color: white;
+  padding-top: 30px;
+  /* margin: 5px; */
+}
+
+.authentication-button {
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.authentication-button:hover {
+  font-weight: bold;
+}
+
+.flex-nav-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-navigationcontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-navigationcontainer ul {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 34px 23px;
+  margin-left: auto;
+}
+
+ul.links {
+  list-style-type: none;
+}
+
+.flex-navigationcontainer li a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(80, 84, 87);
+  border: 2px solid black;
+}
+
+.flex-navigationcontainer li a:hover {
+  color: rgb(38, 39, 41);
+  font-weight: bold;
+}
+
+.usersearchbox {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+}

@@ -1,0 +1,220 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Blinker", sans-serif;
+}
+
+.Intro-Container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(3, 3, 3);
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.logo {
+  border: 2px solid rgb(94, 97, 94);
+  border-radius: 5px;
+  margin: 0px;
+  cursor: pointer;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 4px;
+  margin: 5px;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.savingofferheading {
+  display: flex;
+  flex-wrap: wrap;
+  border: 5px solid rgb(230, 232, 236);
+  border-radius: 20px;
+  margin: auto;
+  padding: 10px;
+  font-weight: bold;
+  color: rgb(230, 232, 236);
+}
+
+.userauthenticationbuttons {
+  display: flex;
+  flex-flow: row-reverse wrap;
+  color: white;
+  padding-top: 30px;
+  /* margin: 5px; */
+}
+
+.authentication-button {
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.authentication-button:hover {
+  font-weight: bold;
+}
+
+.flex-nav-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-navigationcontainer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex-navigationcontainer ul {
+  justify-content: space-evenly;
+  display: flex;
+  padding: 34px 23px;
+  margin-left: auto;
+}
+
+ul.links {
+  list-style-type: none;
+}
+
+.flex-navigationcontainer li a {
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(80, 84, 87);
+  border: 2px solid black;
+}
+
+.flex-navigationcontainer li a:hover {
+  color: rgb(38, 39, 41);
+  font-weight: bold;
+}
+
+.usersearchbox {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+}
+
+.container-login-page {
+  background-image: url(../background.jpg);
+  height: 100%;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.login-form {
+  margin: auto;
+  padding-top: 285px;
+  padding-bottom: 260px;
+  padding-left: 4px;
+  padding-right: 2px;
+}
+
+.login-image {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0 auto;
+  border: 2px solid black;
+}
+
+.responsive {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+}
+
+label {
+  border: 2px solid white;
+  padding: 9px;
+  border-radius: 5px;
+}
+
+input {
+  border: 2px solid white;
+  margin-top: 15px;
+  margin-bottom: 12px;
+  margin-right: 10px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.submit-button {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  border: 2px solid black;
+  justify-content: space-between;
+  background-color: rgb(202, 235, 235);
+  color: white;
+  border-radius: 2px;
+}
+
+.footericons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 10px;
+}
+
+.Icons {
+  padding-right: 5px;
+}
+
+.Icons:hover {
+  cursor: pointer;
+}
+
+.Suggestionbox {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  padding: 10px;
+  margin: 5px;
+  font-size: 14pt;
+}
+
+.Suggest-Box {
+  resize: none;
+  max-width: 100%;
+}
+
+#sugformbutton {
+  cursor: pointer;
+}
+
+#sugformbutton:hover {
+  font-weight: bold;
+}
+
+.copyright {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+
+#headingforsuggestion {
+  padding-bottom: 10px;
+  color: black;
+}
